@@ -1,0 +1,14 @@
+{
+  "modelVersion": "WMCA-v1",
+  "weightStatus": "INITIAL MODEL PARAMETER",
+  "validationStatus": "UNVALIDATED MODEL",
+  "missingDataStrategy": "RENORMALIZE_AVAILABLE_EVIDENCE",
+  "minCompleteness": 0.6,
+  "criteria": [
+    { "id": "geology", "weight": 0.30 },
+    { "id": "structure", "weight": 0.25 },
+    { "id": "geochemistry", "weight": 0.25 },
+    { "id": "drainage", "weight": 0.10 },
+    { "id": "topography", "weight": 0.10 }
+  ]
+}
